@@ -22,5 +22,5 @@ if [ "$OPTION" == "y" ]; then
     read -p "Write the commit message: " MESSAGE
 
     git commit -m "$MESSAGE" && \
-    git push
+    git push origin master
 fi
