@@ -11,6 +11,7 @@
 ## Transparencias
 
 [Reveal](https://asanzdiego.github.io/curso-git-github-markdown-2016/slides/export/git-github-markdown-resumen-reveal-slides.html)
+
 [PDF](https://asanzdiego.github.io/curso-git-github-markdown-2016/slides/export/git-github-markdown-resumen-reveal-slides.pdf)
 
 Contenido:
@@ -26,9 +27,11 @@ Contenido:
 ## Ejercicio básico
 
 [Reveal](https://asanzdiego.github.io/curso-git-github-markdown-2016/slides/export/git-github-markdown-ejercicios-01-reveal-slides.html)
+
 [PDF](https://asanzdiego.github.io/curso-git-github-markdown-2016/slides/export/git-github-markdown-ejercicios-01-reveal-slides.pdf)
 
 ## Ejercicio avanzado
 
 [Reveal](https://asanzdiego.github.io/curso-git-github-markdown-2016/slides/export/git-github-markdown-ejercicios-02-reveal-slides.html)
+
 [PDF](https://asanzdiego.github.io/curso-git-github-markdown-2016/slides/export/git-github-markdown-ejercicios-02-reveal-slides.pdf)
