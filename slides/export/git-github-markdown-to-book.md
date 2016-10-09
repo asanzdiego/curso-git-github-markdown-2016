@@ -1,6 +1,6 @@
 % Git, GitHub y Markdown
 % Adolfo Sanz De Diego
-% Mayo 2016
+% Octubre 2016
 
 
 
