@@ -1,6 +1,6 @@
 # GIT, GitHub y Markdown
 
-## Sylabus
+## Syllabus
 
 [PDF](https://asanzdiego.github.io/curso-git-github-markdown-2016/docs/Syllabus_ModuloNivelacion.pdf)
 
