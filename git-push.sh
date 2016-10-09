@@ -6,21 +6,13 @@ echo "**************************"
 
 git status
 
-read -p "Do you want to add files? [y|*N*]: " OPTION
-
-if [ "$OPTION" == "y" ]; then
-
-    git add -A
-fi
-
-git status
-
-read -p "Do you want to commit? [y|*N*]: " OPTION
+read -p "Do you want to continue? [y|*N*]: " OPTION
 
 if [ "$OPTION" == "y" ]; then
 
     read -p "Write the commit message: " MESSAGE
 
+    git add -A
     git commit -m "$MESSAGE" && \
     git push origin master
 fi
