@@ -4,7 +4,7 @@
 
 [PDF](https://asanzdiego.github.io/curso-git-github-markdown-2016/docs/Syllabus_ModuloNivelacion.pdf)
 
-## Guía de Estudio
+## Guía de estudio
 
 [PDF](https://asanzdiego.github.io/curso-git-github-markdown-2016/docs/Bloque5_ModuloNivelacion_guia.pdf)
 
