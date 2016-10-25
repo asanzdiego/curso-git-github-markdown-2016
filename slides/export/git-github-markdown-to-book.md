@@ -437,12 +437,12 @@ git pull alias-repositorio-remoto nombre-rama-repositorio-remoto
 git push alias-repositorio-remoto nombre-rama-repositorio-remoto
 ~~~
 
-
+## Repos y ramas
 
 - Normalmente:
 
 ~~~
-git push origin master
+git pull/push origin master
 ~~~
 
 
@@ -665,19 +665,7 @@ git push alias-repositorio-remoto --delete nombre-rama-remota
 
 ## GitHub pages
 
-- Podemos tener **servidor web en los repositorios simplemente nombrandolos así**:
-
-~~~
-usuario.github.io
-~~~
-
-~~~
-organizacion.github.io
-~~~
-
-
-
-- También podemos hacer lo mismo con un determinado proyecto **creando una rama gh-pages**.
+- Podemos tener **servidor web en los repositorios simplemente configurandolo**:
 
 - Ver : <https://pages.github.com/>
 

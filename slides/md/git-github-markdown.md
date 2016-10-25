@@ -422,7 +422,7 @@ git fetch alias-repositorio-remoto
 git pull alias-repositorio-remoto nombre-rama-repositorio-remoto
 ~~~
 
-## Enviar datos (I)
+## Enviar datos
 
 - Podemos **enviar datos al reposiorio remoto** (solo si está up-to-date).
 
@@ -430,12 +430,12 @@ git pull alias-repositorio-remoto nombre-rama-repositorio-remoto
 git push alias-repositorio-remoto nombre-rama-repositorio-remoto
 ~~~
 
-## Enviar datos (II)
+## Repos y ramas
 
 - Normalmente:
 
 ~~~
-git push origin master
+git pull/push origin master
 ~~~
 
 ## Enviar datos (III)
@@ -653,21 +653,9 @@ git push alias-repositorio-remoto --delete nombre-rama-remota
     - un gestor de incidencias (issues)
     - una wiki para documentar
 
-## GitHub pages (I)
+## GitHub pages
 
-- Podemos tener **servidor web en los repositorios simplemente nombrandolos así**:
-
-~~~
-usuario.github.io
-~~~
-
-~~~
-organizacion.github.io
-~~~
-
-## GitHub pages (II)
-
-- También podemos hacer lo mismo con un determinado proyecto **creando una rama gh-pages**.
+- Podemos tener **servidor web en los repositorios simplemente configurandolo**:
 
 - Ver : <https://pages.github.com/>
 

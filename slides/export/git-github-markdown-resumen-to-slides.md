@@ -34,24 +34,6 @@
 
 
 
-## Objetivos
-
-1. Conocer las **características de Git** y ser capaz de instalarlo y configurarlo.
-2. Conocer y ser capaz de usar los **comandos de Git**.
-3. Conocer las **características de GitHub** y ser capaz de crear una cuenta y configurarla.
-4. Ser capaz de **crear y clonar repositorios** en GitHub.
-5. Conocer y ser capaz de **usar las principales características de GitHub**.
-6. Conocer la **sintaxis del lenguaje Markdown**.
-
-## Indice
-
-- **Bloque 1**
-    - Uso básico de Git y GitHub
-- **Bloque 2**
-    - Uso avanzado de Git y GitHub
-- **Bloque 3**
-    - Markdown
-
 ## Enlaces imprescindibles
 
 - Pro GIT (sobre todo temas 1, 2, 3 y 6):
@@ -206,30 +188,6 @@ git add *.extension
 git add -A
 ~~~
 
-## Borrar archivos
-
-- Podemos **borrar archivos** del área de staging (también lo borrará del área de trabajo)
-
-~~~
-git rm nombre-del-fichero
-~~~
-
-## Mover/renombrar archivos
-
-- Podemos **mover/renombrar archivos** en el área de staging (también lo hará en el área de trabajo)
-
-~~~
-git mv antiguo-nombre-del-fichero nuevo-nombre-del-fichero
-~~~
-
-##  Resetar archivos
-
-- Para **resetear** los cambios de un fichero (o varios) al area de trabajo (desde el area de staging).
-
-~~~
-git reset nombre-del-fichero
-~~~
-
 ##  Grabar los cambios
 
 - Para **grabar** los cambios realizados al repositorio (desde el área de staging).
@@ -331,22 +289,6 @@ git checkout -b nombre-rama nombre-etiqueta
 
 ![Crear un repositorio](../img/github-new-repo.png)
 
-##  Configurar claves (I)
-
-- Nos permite gestionar repositorios **mediante SSH** sin tener que estar poniendo
-siempre nuestra constraseña.
-
-- Se genera una **clave privada** que se guarde en nuestro ordenador y
-una **clave pública** que es la que tenemos que guardar en nuestra cuenta.
-
-##  Configurar claves (II)
-
-- La podemos usar pues **solo con un ordenador**.
-
-- Instrucciones:
-
-    - <https://help.github.com/articles/generating-ssh-keys/>
-
 ## Cambiar avatar
 
 - View profile and more > Settings > Profile
@@ -382,14 +324,6 @@ una **clave pública** que es la que tenemos que guardar en nuestra cuenta.
 git remote add alias-repositorio-remoto url-repositorio-remoto
 ~~~
 
-## Descargar cambios remotos
-
-- Podemos **descargar los cambios remotos sin modificar nuestro repositorio local**.
-
-~~~
-git fetch alias-repositorio-remoto
-~~~
-
 ## Descargar y combinar
 
 - Podemos **descargar y combinar los cambios remotos** con los de tu repositorio local.
@@ -398,7 +332,7 @@ git fetch alias-repositorio-remoto
 git pull alias-repositorio-remoto nombre-rama-repositorio-remoto
 ~~~
 
-## Enviar datos (I)
+## Enviar datos
 
 - Podemos **enviar datos al reposiorio remoto** (solo si está up-to-date).
 
@@ -406,12 +340,12 @@ git pull alias-repositorio-remoto nombre-rama-repositorio-remoto
 git push alias-repositorio-remoto nombre-rama-repositorio-remoto
 ~~~
 
-## Enviar datos (II)
+## Repos y ramas
 
 - Normalmente:
 
 ~~~
-git push origin master
+git pull/push origin master
 ~~~
 
 ##  Clonar repositorios
@@ -419,7 +353,7 @@ git push origin master
 - Clonar es como:
     - hacer un init
     - luego un remote add
-    - luego un fetch con alias=origin
+    - luego un pull origin master
     - dejando las ramas remota y local en master
 
 ~~~
@@ -498,18 +432,6 @@ git merge nombre-rama
 git branch -d nombre-rama
 ~~~
 
-## Listado de ramas por estado
-
-- Podemos saber **que ramas están fusionada y cuales no**.
-
-~~~
-git branch --merged
-~~~
-
-~~~
-git branch --no-merged
-~~~
-
 
 
 # Uso avanzado de GitHub
@@ -559,21 +481,9 @@ git branch --no-merged
     - un gestor de incidencias (issues)
     - una wiki para documentar
 
-## GitHub pages (I)
+## GitHub pages
 
-- Podemos tener **servidor web en los repositorios simplemente nombrandolos así**:
-
-~~~
-usuario.github.io
-~~~
-
-~~~
-organizacion.github.io
-~~~
-
-## GitHub pages (II)
-
-- También podemos hacer lo mismo con un determinado proyecto **creando una rama gh-pages**.
+- Podemos tener **servidor web en los repositorios simplemente configurandolo**:
 
 - Ver : <https://pages.github.com/>
 
