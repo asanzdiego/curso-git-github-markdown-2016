@@ -86,7 +86,8 @@ puedas recuperar versiones específicas más adelante."
 
 - Un **servidor central** que guarda los cambios.
 
-![VCS Centralizado](../img/vcs-centralizado-bis.png)
+![VCS Centralizado](../img/vcs-centralizado-bis.png){ width=50% text-align=center }
+
 
 ##  Pros y Contras VCS Centralizados
 
@@ -98,7 +99,8 @@ puedas recuperar versiones específicas más adelante."
 
 - Cada cliente **no solo descarga la última copia, sino todo el repositorio**.
 
-![VCS Distribuido](../img/vcs-distribuido-bis.png)
+![VCS Distribuido](../img/vcs-distribuido-bis.png){ width=50% text-align=center }
+
 
 ## Ventajes VCS Distribuidos
 
@@ -154,7 +156,8 @@ git init
 
 ## El área de staging
 
-![Staging Area](../img/git-staging-area-bis.png)
+![Staging Area](../img/git-staging-area-bis.png){ width=50% text-align=center }
+
 
 ##  Ver el estado de los archivos
 
@@ -283,23 +286,27 @@ git checkout -b nombre-rama nombre-etiqueta
 
 ##  Crear cuenta
 
-![Crear cuenta en GitHub](../img/github-signup.png)
+![Crear cuenta en GitHub](../img/github-signup.png){ width=50% text-align=center }
+
 
 ##  Crear repositorio
 
-![Crear un repositorio](../img/github-new-repo.png)
+![Crear un repositorio](../img/github-new-repo.png){ width=50% text-align=center }
+
 
 ## Cambiar avatar
 
 - View profile and more > Settings > Profile
 
-![Cambiar avatar en GitHub](../img/github-avatar.png)
+![Cambiar avatar en GitHub](../img/github-avatar.png){ width=50% text-align=center }
+
 
 ## Doble factor de autentificación
 
 - View profile and more > Settings > Security
 
-![Activr el doble factor de autentificación en GitHub](../img/github-2-factor-authentication.png)
+![Activr el doble factor de autentificación en GitHub](../img/github-2-factor-authentication.png){ width=50% text-align=center }
+
 
 ##  Uso social
 
@@ -362,7 +369,8 @@ git clone url-repositorio-remoto
 
 ## Resumen áreas
 
-![Resumen áreas GIT](../img/git-all-areas-estrecho-bis.png)
+![Resumen áreas GIT](../img/git-all-areas-estrecho-bis.png){ width=50% text-align=center }
+
 
 ## Crear una rama
 
@@ -442,13 +450,15 @@ git branch -d nombre-rama
 
 - Podemos **dar permisos de push** a quien queramos.
 
-![GitHub New Collaborator](../img/github-new-collaborator.png)
+![GitHub New Collaborator](../img/github-new-collaborator.png){ width=50% text-align=center }
+
 
 ## Crear organizaciones
 
 - Podemos **crear organizaciones**.
 
-![GitHub New Organization](../img/github-new-organization.png)
+![GitHub New Organization](../img/github-new-organization.png){ width=50% text-align=center }
+
 
 ## Gestionar organizaciones
 
@@ -646,10 +656,12 @@ data(county.fips) # mapa de los condados
 
 - Este obra está bajo una licencia:
 
-![Creative Commons BY SA](../img/cc-by-sa.png)
+![Creative Commons BY SA](../img/cc-by-sa.png){ width=50% text-align=center }
+
 
 ~~~
 - Este obra está bajo una licencia:
 
-![Creative Commons BY SA](../img/cc-by-sa.png)
+![Creative Commons BY SA](../img/cc-by-sa.png){ width=50% text-align=center }
+
 ~~~

@@ -104,7 +104,7 @@ puedas recuperar versiones específicas más adelante."
 
 - Un **servidor central** que guarda los cambios.
 
-<div style="text-align:center">![VCS Centralizado](../img/vcs-centralizado-bis.png)</div>
+![VCS Centralizado](../img/vcs-centralizado-bis.png){ width=50% text-align=center }
 
 
 ##  Pros y Contras VCS Centralizados
@@ -117,7 +117,7 @@ puedas recuperar versiones específicas más adelante."
 
 - Cada cliente **no solo descarga la última copia, sino todo el repositorio**.
 
-<div style="text-align:center">![VCS Distribuido](../img/vcs-distribuido-bis.png)</div>
+![VCS Distribuido](../img/vcs-distribuido-bis.png){ width=50% text-align=center }
 
 
 ## Ventajes VCS Distribuidos
@@ -174,7 +174,7 @@ git init
 
 ## El área de staging
 
-<div style="text-align:center">![Staging Area](../img/git-staging-area-bis.png)</div>
+![Staging Area](../img/git-staging-area-bis.png){ width=50% text-align=center }
 
 
 ##  Ver el estado de los archivos
@@ -328,12 +328,12 @@ git checkout -b nombre-rama nombre-etiqueta
 
 ##  Crear cuenta
 
-<div style="text-align:center">![Crear cuenta en GitHub](../img/github-signup.png)</div>
+![Crear cuenta en GitHub](../img/github-signup.png){ width=50% text-align=center }
 
 
 ##  Crear repositorio
 
-<div style="text-align:center">![Crear un repositorio](../img/github-new-repo.png)</div>
+![Crear un repositorio](../img/github-new-repo.png){ width=50% text-align=center }
 
 
 ##  Configurar claves
@@ -356,14 +356,14 @@ una **clave pública** que es la que tenemos que guardar en nuestra cuenta.
 
 - View profile and more > Settings > Profile
 
-<div style="text-align:center">![Cambiar avatar en GitHub](../img/github-avatar.png)</div>
+![Cambiar avatar en GitHub](../img/github-avatar.png){ width=50% text-align=center }
 
 
 ## Doble factor de autentificación
 
 - View profile and more > Settings > Security
 
-<div style="text-align:center">![Activr el doble factor de autentificación en GitHub](../img/github-2-factor-authentication.png)</div>
+![Activr el doble factor de autentificación en GitHub](../img/github-2-factor-authentication.png){ width=50% text-align=center }
 
 
 ##  Uso social
@@ -475,7 +475,7 @@ git remote show alias-repositorio-remoto
 
 ## Resumen áreas
 
-<div style="text-align:center">![Resumen áreas GIT](../img/git-all-areas-estrecho-bis.png)</div>
+![Resumen áreas GIT](../img/git-all-areas-estrecho-bis.png){ width=50% text-align=center }
 
 
 ## Crear una rama
@@ -604,14 +604,14 @@ git push alias-repositorio-remoto --delete nombre-rama-remota
 
 - Podemos **dar permisos de push** a quien queramos.
 
-<div style="text-align:center">![GitHub New Collaborator](../img/github-new-collaborator.png)</div>
+![GitHub New Collaborator](../img/github-new-collaborator.png){ width=50% text-align=center }
 
 
 ## Crear organizaciones
 
 - Podemos **crear organizaciones**.
 
-<div style="text-align:center">![GitHub New Organization](../img/github-new-organization.png)</div>
+![GitHub New Organization](../img/github-new-organization.png){ width=50% text-align=center }
 
 
 ## Gestionar organizaciones
@@ -842,12 +842,12 @@ data(county.fips) # mapa de los condados
 
 - Este obra está bajo una licencia:
 
-<div style="text-align:center">![Creative Commons BY SA](../img/cc-by-sa.png)</div>
+![Creative Commons BY SA](../img/cc-by-sa.png){ width=50% text-align=center }
 
 
 ~~~
 - Este obra está bajo una licencia:
 
-<div style="text-align:center">![Creative Commons BY SA](../img/cc-by-sa.png)</div>
+![Creative Commons BY SA](../img/cc-by-sa.png){ width=50% text-align=center }
 
 ~~~
